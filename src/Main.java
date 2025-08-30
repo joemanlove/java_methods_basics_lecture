@@ -14,7 +14,14 @@ public class Main {
     access modifier, optional modifier, return type, method name, parameters, and of course the method's body
     */
 
-    // this method takes two integers and returns their sum
+    // this thing is called a Javadoc, it makes hover tooltips work better
+    /**
+     * Computes the sum of the two supplied numbers
+     *
+     * @param a the first number
+     * @param b the second number
+     * @return sum of a and b
+     */
     public static int add(int a, int b){
         return a+b;
     }
